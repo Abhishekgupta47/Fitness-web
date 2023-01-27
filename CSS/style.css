@@ -1,0 +1,124 @@
+/* CSS RESET */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg.jpg');
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.left {
+    display: inline-block;
+
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+
+.left img {
+    width: 137px;
+    padding: 2px;
+    margin: -26px;
+}
+
+.left div {
+    margin: -10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(224, 237, 243);
+}
+
+.mid {
+    font-size: 20px;
+    display: block;
+    width: 41%;
+    margin: 20px auto;
+    
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(18, 107, 107);
+
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: rgb(156, 191, 14);
+    padding: 4px 14px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+
+}
+
+.btn:hover {
+    background-color: rgb(18, 107, 107);
+}
+
+.container {
+    
+    margin: 141px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 100;
+
+
+}
+
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    text-align: center;
+    display: block;
+    width: 408px;
+    padding: 1px;
+    
+    margin: 12px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
